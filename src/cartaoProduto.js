@@ -6,7 +6,7 @@ export function renderizarCatalago() {
     const cartaoProduto = `<div class='border-solid shadow-xl shadow-slate-400 rounded-lg w-48 m-2 flex flex-col p-2 justify-between group ${
       produtoCatalogo.feminino ? "feminino" : "masculino"
     }'  id="card-produto-${produtoCatalogo.id}">
-      <img src="assets/img/${
+      <img src="./assets/img/${
         produtoCatalogo.imagem
       }" alt="Produto 1 do Magazine Hashtag" class="group-hover:scale-110 duration-300 my-3 rounded-lg">
       <p class="text-sm">${produtoCatalogo.marca}</p>

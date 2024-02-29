@@ -82,7 +82,7 @@ function desenharProdutoCarrinho(idProduto) {
   }" class="absolute top-00 right-2"><i class="fa-solid fa-circle-xmark text-slate-500 hover:text-slate-800"></i>
   </button>
   <img
-    src="assets/img/${produto.imagem}"
+    src="./assets/img/${produto.imagem}"
     class="h-24 rounded-lg"
     alt="Carrinho: ${produto.nome}"
   />
